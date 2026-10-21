@@ -550,7 +550,7 @@ struct GeneralSettingsView: View {
     @State private var copiedBuildInfoResetWorkItem: DispatchWorkItem?
     @StateObject private var githubCache = GitHubMetadataCache.shared
     @ObservedObject private var updateManager = UpdateManager.shared
-    private let konradflowRepoURL = URL(string: "https://github.com/konradtabay/system-one")!
+    private let konradflowRepoURL = URL(string: "https://github.com/konradtabay/konradflow")!
 
     private var appDisplayName: String {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
@@ -621,7 +621,7 @@ struct GeneralSettingsView: View {
                             Button {
                                 openURL(konradflowRepoURL)
                             } label: {
-                                Text("konradtabay/system-one")
+                                Text("konradtabay/konradflow")
                                     .font(.system(.caption, design: .monospaced).weight(.medium))
                             }
                             .buttonStyle(.plain)

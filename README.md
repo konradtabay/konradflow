@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  System-one models on Apple Silicon (local Julia 1 cleanup decisions) plus a Groq fallback when confidence is low.
+  On-device models on Apple Silicon (local Julia 1 cleanup decisions) plus a Groq fallback when confidence is low.
 </p>
 
 ---
@@ -41,8 +41,8 @@ Paste-light setup: [`docs/julia-paste-light.md`](docs/julia-paste-light.md)
 ## Quick Start
 
 ```bash
-git clone https://github.com/konradtabay/system-one.git
-cd system-one
+git clone https://github.com/konradtabay/konradflow.git
+cd konradflow
 make
 open "build/KonradFlow Dev.app"
 ```

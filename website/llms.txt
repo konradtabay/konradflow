@@ -3,8 +3,8 @@
 KonradFlow is a free and open source macOS dictation app.
 
 Canonical site: https://konradflow.konradtabay.com/
-Source code: https://github.com/konradtabay/system-one
-Download: https://github.com/konradtabay/system-one/releases/latest/download/KonradFlow.dmg
+Source code: https://github.com/konradtabay/konradflow
+Download: https://github.com/konradtabay/konradflow/releases/latest/download/KonradFlow.dmg
 License: MIT
 Platform: macOS, Apple Silicon and Intel Macs
 
