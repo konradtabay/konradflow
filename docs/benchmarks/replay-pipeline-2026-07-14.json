@@ -1,0 +1,512 @@
+{
+  "generated_on": "2026-07-14",
+  "audio_dir": "/Users/konradtabay/Library/Application Support/KonradFlow Dev/audio",
+  "clip_count": 17,
+  "note": "Simulated post-release pipeline only (STT upload + LLM cleanup). Does not include T_start mic warm-up or shortcut-release paste delay.",
+  "live_dev_session_baseline": {
+    "source": "docs/benchmarks/baseline-2026-07-14.json",
+    "t_start_p50_ms": 13.2,
+    "t_paste_p50_ms": 920.6,
+    "stt_p50_ms": 430.4,
+    "pp_p50_ms": 223.6
+  },
+  "variants": {
+    "baseline": {
+      "total_ms": {
+        "count": 13,
+        "p50": 1513.3816260495223,
+        "p95": 3712.5093329814263
+      },
+      "stt_ms": {
+        "p50": 796.5506670298055,
+        "p95": 2033.9834580081515
+      },
+      "pp_ms": {
+        "p50": 624.55000000773,
+        "p95": 2598.405750002712
+      }
+    },
+    "fast_cleanup": {
+      "total_ms": {
+        "count": 12,
+        "p50": 2396.8825409538113,
+        "p95": 4969.156040984672
+      },
+      "stt_ms": {
+        "p50": 1213.2040829746984,
+        "p95": 2640.843000030145
+      },
+      "pp_ms": {
+        "p50": 1029.4423330342397,
+        "p95": 1959.4443330424838
+      },
+      "delta_vs_baseline_p50_ms": 883.5
+    },
+    "fast_stt_turbo": {
+      "total_ms": {
+        "count": 11,
+        "p50": 1204.9638330354355,
+        "p95": 6857.162417029031
+      },
+      "stt_ms": {
+        "p50": 703.2372500398196,
+        "p95": 5937.2237080242485
+      },
+      "pp_ms": {
+        "p50": 473.8120420370251,
+        "p95": 2553.7271659704857
+      },
+      "delta_vs_baseline_p50_ms": -308.4
+    },
+    "fast_both": {
+      "total_ms": {
+        "count": 12,
+        "p50": 1980.8483750093728,
+        "p95": 3412.2612079954706
+      },
+      "stt_ms": {
+        "p50": 807.3784579755738,
+        "p95": 2157.682624994777
+      },
+      "pp_ms": {
+        "p50": 1103.1322079943493,
+        "p95": 1469.8154589859769
+      },
+      "delta_vs_baseline_p50_ms": 467.5
+    }
+  },
+  "runs": [
+    {
+      "wav": "344AD052-0D24-4BD4-A07C-213C5B42874B.wav",
+      "variant": "baseline",
+      "stt_ms": 391.9,
+      "pp_ms": 288.9,
+      "total_ms": 680.8,
+      "raw_len": 3,
+      "final_len": 3
+    },
+    {
+      "wav": "344AD052-0D24-4BD4-A07C-213C5B42874B.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 270.5,
+      "pp_ms": 593.3,
+      "total_ms": 863.9,
+      "raw_len": 3,
+      "final_len": 3
+    },
+    {
+      "wav": "344AD052-0D24-4BD4-A07C-213C5B42874B.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 415.4,
+      "pp_ms": 426.7,
+      "total_ms": 842.1,
+      "raw_len": 10,
+      "final_len": 10
+    },
+    {
+      "wav": "344AD052-0D24-4BD4-A07C-213C5B42874B.wav",
+      "variant": "fast_both",
+      "stt_ms": 341.9,
+      "pp_ms": 901.7,
+      "total_ms": 1243.6,
+      "raw_len": 10,
+      "final_len": 15
+    },
+    {
+      "wav": "D0C9B416-9004-43CF-95EC-4FB1457DCE85.wav",
+      "variant": "baseline",
+      "stt_ms": 320.8,
+      "pp_ms": 657.6,
+      "total_ms": 978.4,
+      "raw_len": 5,
+      "final_len": 70
+    },
+    {
+      "wav": "D0C9B416-9004-43CF-95EC-4FB1457DCE85.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 336.0,
+      "pp_ms": 1142.0,
+      "total_ms": 1477.9,
+      "raw_len": 5,
+      "final_len": 5
+    },
+    {
+      "wav": "D0C9B416-9004-43CF-95EC-4FB1457DCE85.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 359.7,
+      "pp_ms": 392.7,
+      "total_ms": 752.5,
+      "raw_len": 5,
+      "final_len": 70
+    },
+    {
+      "wav": "D0C9B416-9004-43CF-95EC-4FB1457DCE85.wav",
+      "variant": "fast_both",
+      "stt_ms": 302.1,
+      "pp_ms": 1144.7,
+      "total_ms": 1446.8,
+      "raw_len": 5,
+      "final_len": 5
+    },
+    {
+      "wav": "88283409-E5BD-4309-B629-10900E135ADE.wav",
+      "variant": "baseline",
+      "stt_ms": 386.3,
+      "pp_ms": 362.9,
+      "total_ms": 749.1,
+      "raw_len": 36,
+      "final_len": 36
+    },
+    {
+      "wav": "88283409-E5BD-4309-B629-10900E135ADE.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 632.7,
+      "pp_ms": 1029.4,
+      "total_ms": 1662.1,
+      "raw_len": 36,
+      "final_len": 36
+    },
+    {
+      "wav": "88283409-E5BD-4309-B629-10900E135ADE.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 444.5,
+      "pp_ms": 397.4,
+      "total_ms": 842.0,
+      "raw_len": 36,
+      "final_len": 36
+    },
+    {
+      "wav": "88283409-E5BD-4309-B629-10900E135ADE.wav",
+      "variant": "fast_both",
+      "stt_ms": 292.3,
+      "pp_ms": 1081.1,
+      "total_ms": 1373.4,
+      "raw_len": 36,
+      "final_len": 36
+    },
+    {
+      "wav": "F0D51ACF-7B10-427F-B32A-EB19CC13B608.wav",
+      "variant": "baseline",
+      "stt_ms": 556.8,
+      "pp_ms": 2598.4,
+      "total_ms": 3155.2,
+      "raw_len": 27,
+      "final_len": 0
+    },
+    {
+      "wav": "F0D51ACF-7B10-427F-B32A-EB19CC13B608.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 2340.8,
+      "pp_ms": 2628.3,
+      "total_ms": 4969.2,
+      "raw_len": 27,
+      "final_len": 27
+    },
+    {
+      "wav": "F0D51ACF-7B10-427F-B32A-EB19CC13B608.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 1219.9,
+      "pp_ms": 2553.7,
+      "total_ms": 3773.6,
+      "raw_len": 27,
+      "final_len": 0
+    },
+    {
+      "wav": "F0D51ACF-7B10-427F-B32A-EB19CC13B608.wav",
+      "variant": "fast_both",
+      "stt_ms": 1083.8,
+      "pp_ms": 922.2,
+      "total_ms": 2006.0,
+      "raw_len": 27,
+      "final_len": 27
+    },
+    {
+      "wav": "D0F5D58A-E29F-4616-A31A-5191682E9839.wav",
+      "variant": "baseline",
+      "stt_ms": 1656.2,
+      "pp_ms": 473.4,
+      "total_ms": 2129.6,
+      "raw_len": 42,
+      "final_len": 42
+    },
+    {
+      "wav": "D0F5D58A-E29F-4616-A31A-5191682E9839.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 1117.4,
+      "pp_ms": 1173.6,
+      "total_ms": 2291.0,
+      "raw_len": 42,
+      "final_len": 43
+    },
+    {
+      "wav": "D0F5D58A-E29F-4616-A31A-5191682E9839.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 2267.1,
+      "pp_ms": 532.1,
+      "total_ms": 2799.2,
+      "raw_len": 42,
+      "final_len": 42
+    },
+    {
+      "wav": "D0F5D58A-E29F-4616-A31A-5191682E9839.wav",
+      "variant": "fast_both",
+      "stt_ms": 2157.7,
+      "pp_ms": 1254.6,
+      "total_ms": 3412.3,
+      "raw_len": 42,
+      "final_len": 42
+    },
+    {
+      "wav": "B9D1477E-9B20-4402-BB52-03F7229F8CA4.wav",
+      "variant": "baseline",
+      "stt_ms": 2034.0,
+      "pp_ms": 536.5,
+      "total_ms": 2570.5,
+      "raw_len": 14,
+      "final_len": 14
+    },
+    {
+      "wav": "B9D1477E-9B20-4402-BB52-03F7229F8CA4.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 1919.2,
+      "pp_ms": 706.6,
+      "total_ms": 2625.8,
+      "raw_len": 14,
+      "final_len": 14
+    },
+    {
+      "wav": "B9D1477E-9B20-4402-BB52-03F7229F8CA4.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 1320.1,
+      "pp_ms": 333.6,
+      "total_ms": 1653.7,
+      "raw_len": 13,
+      "final_len": 13
+    },
+    {
+      "wav": "B9D1477E-9B20-4402-BB52-03F7229F8CA4.wav",
+      "variant": "fast_both",
+      "stt_ms": 607.5,
+      "pp_ms": 843.8,
+      "total_ms": 1451.3,
+      "raw_len": 13,
+      "final_len": 14
+    },
+    {
+      "wav": "4E07678E-73D4-4CEE-A819-F79EFE996922.wav",
+      "variant": "baseline",
+      "stt_ms": 667.5,
+      "pp_ms": 715.7,
+      "total_ms": 1383.2,
+      "raw_len": 58,
+      "final_len": 97
+    },
+    {
+      "wav": "4E07678E-73D4-4CEE-A819-F79EFE996922.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 551.3,
+      "pp_ms": 894.7,
+      "total_ms": 1446.0,
+      "raw_len": 58,
+      "final_len": 193
+    },
+    {
+      "wav": "4E07678E-73D4-4CEE-A819-F79EFE996922.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 621.2,
+      "pp_ms": 450.2,
+      "total_ms": 1071.3,
+      "raw_len": 58,
+      "final_len": 97
+    },
+    {
+      "wav": "4E07678E-73D4-4CEE-A819-F79EFE996922.wav",
+      "variant": "fast_both",
+      "stt_ms": 553.1,
+      "pp_ms": 1103.1,
+      "total_ms": 1656.2,
+      "raw_len": 58,
+      "final_len": 143
+    },
+    {
+      "wav": "3DF45F27-C4BF-4C52-AF83-4B930F380296.wav",
+      "variant": "baseline",
+      "stt_ms": 644.1,
+      "pp_ms": 498.0,
+      "total_ms": 1142.1,
+      "raw_len": 79,
+      "final_len": 80
+    },
+    {
+      "wav": "3DF45F27-C4BF-4C52-AF83-4B930F380296.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 445.8,
+      "pp_ms": 1959.4,
+      "total_ms": 2405.2,
+      "raw_len": 79,
+      "final_len": 81
+    },
+    {
+      "wav": "3DF45F27-C4BF-4C52-AF83-4B930F380296.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 5937.2,
+      "pp_ms": 919.9,
+      "total_ms": 6857.2,
+      "raw_len": 79,
+      "final_len": 80
+    },
+    {
+      "wav": "3DF45F27-C4BF-4C52-AF83-4B930F380296.wav",
+      "variant": "fast_both",
+      "stt_ms": 3687.3,
+      "pp_ms": 1215.9,
+      "total_ms": 4903.1,
+      "raw_len": 79,
+      "final_len": 81
+    },
+    {
+      "wav": "77C52BC6-98C2-41B7-9FDA-E1D23146F624.wav",
+      "variant": "baseline",
+      "stt_ms": 3088.0,
+      "pp_ms": 624.6,
+      "total_ms": 3712.5,
+      "raw_len": 76,
+      "final_len": 76
+    },
+    {
+      "wav": "77C52BC6-98C2-41B7-9FDA-E1D23146F624.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 1213.2,
+      "pp_ms": 1183.7,
+      "total_ms": 2396.9,
+      "raw_len": 76,
+      "final_len": 160
+    },
+    {
+      "wav": "77C52BC6-98C2-41B7-9FDA-E1D23146F624.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 703.2,
+      "pp_ms": 501.7,
+      "total_ms": 1205.0,
+      "raw_len": 76,
+      "final_len": 76
+    },
+    {
+      "wav": "77C52BC6-98C2-41B7-9FDA-E1D23146F624.wav",
+      "variant": "fast_both",
+      "stt_ms": 807.4,
+      "pp_ms": 1685.0,
+      "total_ms": 2492.4,
+      "raw_len": 76,
+      "final_len": 881
+    },
+    {
+      "wav": "4BB778A3-A281-4F9E-B659-1FA78F286122.wav",
+      "variant": "baseline",
+      "stt_ms": 1807.5,
+      "pp_ms": 880.6,
+      "total_ms": 2688.1,
+      "raw_len": 97,
+      "final_len": 98
+    },
+    {
+      "wav": "4BB778A3-A281-4F9E-B659-1FA78F286122.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 75545.7,
+      "pp_ms": 885.4,
+      "total_ms": 76431.2,
+      "raw_len": 97,
+      "final_len": 98
+    },
+    {
+      "wav": "4BB778A3-A281-4F9E-B659-1FA78F286122.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 458.6,
+      "pp_ms": 709.1,
+      "total_ms": 1167.7,
+      "raw_len": 97,
+      "final_len": 98
+    },
+    {
+      "wav": "4BB778A3-A281-4F9E-B659-1FA78F286122.wav",
+      "variant": "fast_both",
+      "stt_ms": 943.9,
+      "pp_ms": 1469.8,
+      "total_ms": 2413.7,
+      "raw_len": 97,
+      "final_len": 98
+    },
+    {
+      "wav": "99EAB325-26C1-49F5-BDEC-8839425BEF95.wav",
+      "variant": "baseline",
+      "stt_ms": 867.3,
+      "pp_ms": 576.9,
+      "total_ms": 1444.2,
+      "raw_len": 160,
+      "final_len": 162
+    },
+    {
+      "wav": "99EAB325-26C1-49F5-BDEC-8839425BEF95.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 1332.4,
+      "pp_ms": 987.8,
+      "total_ms": 2320.2,
+      "raw_len": 160,
+      "final_len": 162
+    },
+    {
+      "wav": "99EAB325-26C1-49F5-BDEC-8839425BEF95.wav",
+      "variant": "fast_stt_turbo",
+      "stt_ms": 1102.1,
+      "pp_ms": 473.8,
+      "total_ms": 1575.9,
+      "raw_len": 160,
+      "final_len": 162
+    },
+    {
+      "wav": "99EAB325-26C1-49F5-BDEC-8839425BEF95.wav",
+      "variant": "fast_both",
+      "stt_ms": 1004.3,
+      "pp_ms": 976.6,
+      "total_ms": 1980.8,
+      "raw_len": 160,
+      "final_len": 162
+    },
+    {
+      "wav": "688CEB7F-6B61-40C9-8D46-654DB6C4DA83.wav",
+      "variant": "baseline",
+      "stt_ms": 1613.5,
+      "pp_ms": 2743.2,
+      "total_ms": 4356.6,
+      "raw_len": 105,
+      "final_len": 0
+    },
+    {
+      "wav": "688CEB7F-6B61-40C9-8D46-654DB6C4DA83.wav",
+      "variant": "fast_cleanup",
+      "stt_ms": 2640.8,
+      "pp_ms": 919.5,
+      "total_ms": 3560.3,
+      "raw_len": 105,
+      "final_len": 106
+    },
+    {
+      "wav": "688CEB7F-6B61-40C9-8D46-654DB6C4DA83.wav",
+      "variant": "fast_both",
+      "stt_ms": 584.0,
+      "pp_ms": 1008.4,
+      "total_ms": 1592.4,
+      "raw_len": 104,
+      "final_len": 108
+    },
+    {
+      "wav": "6D4EAB86-7721-4C37-8C79-D416124D5EFB.wav",
+      "variant": "baseline",
+      "stt_ms": 796.6,
+      "pp_ms": 716.8,
+      "total_ms": 1513.4,
+      "raw_len": 108,
+      "final_len": 111
+    }
+  ]
+}

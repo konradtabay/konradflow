@@ -1,0 +1,42 @@
+{
+  "generated_on": "2026-07-14",
+  "source": "Production KonradFlow WAV clips via Scripts/stt-ab-benchmark.sh",
+  "clips": [
+    {
+      "label": "short",
+      "file": "C04FBF77-A243-4C05-B200-C3EAFE903CE6.wav",
+      "results": {
+        "whisper-large-v3_verbose_json_ms": 386,
+        "whisper-large-v3_json_ms": 322,
+        "whisper-large-v3-turbo_verbose_json_ms": 365,
+        "whisper-large-v3-turbo_json_ms": 368
+      }
+    },
+    {
+      "label": "medium",
+      "file": "80F24641-C072-4A8E-BB03-9F85D40B29D0.wav",
+      "results": {
+        "whisper-large-v3_verbose_json_ms": 564,
+        "whisper-large-v3_json_ms": 634,
+        "whisper-large-v3-turbo_verbose_json_ms": 435,
+        "whisper-large-v3-turbo_json_ms": 679
+      }
+    },
+    {
+      "label": "long",
+      "file": "05DB0BC9-B608-4C42-9919-0D16F1DF8949.wav",
+      "results": {
+        "whisper-large-v3_verbose_json_ms": 1281,
+        "whisper-large-v3_json_ms": 1051,
+        "whisper-large-v3-turbo_verbose_json_ms": 1098,
+        "whisper-large-v3-turbo_json_ms": 826
+      }
+    }
+  ],
+  "takeaways": {
+    "short_clip_fastest": "whisper-large-v3 + json (322ms)",
+    "medium_clip_fastest": "whisper-large-v3-turbo + verbose_json (435ms)",
+    "long_clip_fastest": "whisper-large-v3-turbo + json (826ms)",
+    "verbose_json_vs_json": "Mixed — json wins on short/long v3, turbo wins medium with verbose_json"
+  }
+}

@@ -1,0 +1,172 @@
+Replaying 344AD052-0D24-4BD4-A07C-213C5B42874B.wav (11 KB)...
+  baseline: stt=392ms pp=289ms total=681ms
+  fast_cleanup: stt=271ms pp=593ms total=864ms
+  fast_stt_turbo: stt=415ms pp=427ms total=842ms
+  fast_both: stt=342ms pp=902ms total=1244ms
+Replaying D0C9B416-9004-43CF-95EC-4FB1457DCE85.wav (38 KB)...
+  baseline: stt=321ms pp=658ms total=978ms
+  fast_cleanup: stt=336ms pp=1142ms total=1478ms
+  fast_stt_turbo: stt=360ms pp=393ms total=752ms
+  fast_both: stt=302ms pp=1145ms total=1447ms
+Replaying 88283409-E5BD-4309-B629-10900E135ADE.wav (74 KB)...
+  baseline: stt=386ms pp=363ms total=749ms
+  fast_cleanup: stt=633ms pp=1029ms total=1662ms
+  fast_stt_turbo: stt=445ms pp=397ms total=842ms
+  fast_both: stt=292ms pp=1081ms total=1373ms
+Replaying F0D51ACF-7B10-427F-B32A-EB19CC13B608.wav (83 KB)...
+  baseline: stt=557ms pp=2598ms total=3155ms
+  fast_cleanup: stt=2341ms pp=2628ms total=4969ms
+  fast_stt_turbo: stt=1220ms pp=2554ms total=3774ms
+  fast_both: stt=1084ms pp=922ms total=2006ms
+Replaying D0F5D58A-E29F-4616-A31A-5191682E9839.wav (106 KB)...
+  baseline: stt=1656ms pp=473ms total=2130ms
+  fast_cleanup: stt=1117ms pp=1174ms total=2291ms
+  fast_stt_turbo: stt=2267ms pp=532ms total=2799ms
+  fast_both: stt=2158ms pp=1255ms total=3412ms
+Replaying B9D1477E-9B20-4402-BB52-03F7229F8CA4.wav (114 KB)...
+  baseline: stt=2034ms pp=536ms total=2570ms
+  fast_cleanup: stt=1919ms pp=707ms total=2626ms
+  fast_stt_turbo: stt=1320ms pp=334ms total=1654ms
+  fast_both: stt=608ms pp=844ms total=1451ms
+Replaying 4E07678E-73D4-4CEE-A819-F79EFE996922.wav (122 KB)...
+  baseline: stt=668ms pp=716ms total=1383ms
+  fast_cleanup: stt=551ms pp=895ms total=1446ms
+  fast_stt_turbo: stt=621ms pp=450ms total=1071ms
+  fast_both: stt=553ms pp=1103ms total=1656ms
+Replaying 3DF45F27-C4BF-4C52-AF83-4B930F380296.wav (140 KB)...
+  baseline: stt=644ms pp=498ms total=1142ms
+  fast_cleanup: stt=446ms pp=1959ms total=2405ms
+  fast_stt_turbo: stt=5937ms pp=920ms total=6857ms
+  fast_both: stt=3687ms pp=1216ms total=4903ms
+Replaying 77C52BC6-98C2-41B7-9FDA-E1D23146F624.wav (173 KB)...
+  baseline: stt=3088ms pp=625ms total=3713ms
+  fast_cleanup: stt=1213ms pp=1184ms total=2397ms
+  fast_stt_turbo: stt=703ms pp=502ms total=1205ms
+  fast_both: stt=807ms pp=1685ms total=2492ms
+Replaying 4BB778A3-A281-4F9E-B659-1FA78F286122.wav (199 KB)...
+  baseline: stt=1807ms pp=881ms total=2688ms
+  fast_cleanup: stt=75546ms pp=885ms total=76431ms
+  fast_stt_turbo: stt=459ms pp=709ms total=1168ms
+  fast_both: stt=944ms pp=1470ms total=2414ms
+Replaying 99EAB325-26C1-49F5-BDEC-8839425BEF95.wav (238 KB)...
+  baseline: stt=867ms pp=577ms total=1444ms
+  fast_cleanup: stt=1332ms pp=988ms total=2320ms
+  fast_stt_turbo: stt=1102ms pp=474ms total=1576ms
+  fast_both: stt=1004ms pp=977ms total=1981ms
+Replaying 688CEB7F-6B61-40C9-8D46-654DB6C4DA83.wav (250 KB)...
+  baseline: stt=1613ms pp=2743ms total=4357ms
+  fast_cleanup: stt=2641ms pp=919ms total=3560ms
+  PP openai/gpt-oss-20b: rate limited, waiting 3.5s...
+  PP openai/gpt-oss-20b: rate limited, waiting 7.0s...
+  PP openai/gpt-oss-20b: rate limited, waiting 10.5s...
+  PP openai/gpt-oss-20b: rate limited, waiting 14.0s...
+  PP openai/gpt-oss-20b: rate limited, waiting 17.5s...
+  PP openai/gpt-oss-20b: rate limited, waiting 21.0s...
+  fast_stt_turbo: post-processing HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01kxbkyvt7frbbthqjecff5jyz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198776, Req
+  fast_both: stt=584ms pp=1008ms total=1592ms
+Replaying 6D4EAB86-7721-4C37-8C79-D416124D5EFB.wav (255 KB)...
+  PP openai/gpt-oss-20b: rate limited, waiting 3.5s...
+  PP openai/gpt-oss-20b: rate limited, waiting 7.0s...
+  baseline: stt=797ms pp=717ms total=1513ms
+  fast_cleanup: post-processing HTTP 0: 
+  fast_stt_turbo: STT HTTP 0: 
+  fast_both: STT HTTP 0: 
+Replaying F2629921-44BA-403E-AE50-D3B3CF12DAB4.wav (353 KB)...
+  baseline: STT HTTP 0: 
+  fast_cleanup: STT HTTP 0: 
+  fast_stt_turbo: STT HTTP 0: 
+  fast_both: STT HTTP 0: 
+Replaying 1A1E10AE-DB48-4A1F-B767-F5F1421EC9A4.wav (380 KB)...
+  baseline: STT HTTP 0: 
+  fast_cleanup: STT HTTP 0: 
+  fast_stt_turbo: STT HTTP 0: 
+  fast_both: STT HTTP 0: 
+Replaying AC3A76A8-F503-4DBA-9758-A6254D0C5A0A.wav (508 KB)...
+  baseline: STT HTTP 0: 
+  fast_cleanup: STT HTTP 0: 
+  fast_stt_turbo: STT HTTP 0: 
+  fast_both: STT HTTP 0: 
+Replaying 44DC3AD7-192C-4D6D-8B77-CFAB7DC7B571.wav (538 KB)...
+  baseline: STT HTTP 0: 
+  fast_cleanup: STT HTTP 0: 
+  fast_stt_turbo: STT HTTP 0: 
+  fast_both: STT HTTP 0: 
+{
+  "generated_on": "2026-07-14",
+  "audio_dir": "/Users/konradtabay/Library/Application Support/KonradFlow Dev/audio",
+  "clip_count": 17,
+  "note": "Simulated post-release pipeline only (STT upload + LLM cleanup). Does not include T_start mic warm-up or shortcut-release paste delay.",
+  "live_dev_session_baseline": {
+    "source": "docs/benchmarks/baseline-2026-07-14.json",
+    "t_start_p50_ms": 13.2,
+    "t_paste_p50_ms": 920.6,
+    "stt_p50_ms": 430.4,
+    "pp_p50_ms": 223.6
+  },
+  "variants": {
+    "baseline": {
+      "total_ms": {
+        "count": 13,
+        "p50": 1513.3816260495223,
+        "p95": 3712.5093329814263
+      },
+      "stt_ms": {
+        "p50": 796.5506670298055,
+        "p95": 2033.9834580081515
+      },
+      "pp_ms": {
+        "p50": 624.55000000773,
+        "p95": 2598.405750002712
+      }
+    },
+    "fast_cleanup": {
+      "total_ms": {
+        "count": 12,
+        "p50": 2396.8825409538113,
+        "p95": 4969.156040984672
+      },
+      "stt_ms": {
+        "p50": 1213.2040829746984,
+        "p95": 2640.843000030145
+      },
+      "pp_ms": {
+        "p50": 1029.4423330342397,
+        "p95": 1959.4443330424838
+      },
+      "delta_vs_baseline_p50_ms": 883.5
+    },
+    "fast_stt_turbo": {
+      "total_ms": {
+        "count": 11,
+        "p50": 1204.9638330354355,
+        "p95": 6857.162417029031
+      },
+      "stt_ms": {
+        "p50": 703.2372500398196,
+        "p95": 5937.2237080242485
+      },
+      "pp_ms": {
+        "p50": 473.8120420370251,
+        "p95": 2553.7271659704857
+      },
+      "delta_vs_baseline_p50_ms": -308.4
+    },
+    "fast_both": {
+      "total_ms": {
+        "count": 12,
+        "p50": 1980.8483750093728,
+        "p95": 3412.2612079954706
+      },
+      "stt_ms": {
+        "p50": 807.3784579755738,
+        "p95": 2157.682624994777
+      },
+      "pp_ms": {
+        "p50": 1103.1322079943493,
+        "p95": 1469.8154589859769
+      },
+      "delta_vs_baseline_p50_ms": 467.5
+    }
+  }
+}
+Wrote /Applications/konradflow/docs/benchmarks/replay-pipeline-2026-07-14.json

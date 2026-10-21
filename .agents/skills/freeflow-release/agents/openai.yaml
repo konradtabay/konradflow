@@ -1,0 +1,4 @@
+interface:
+  display_name: "KonradFlow Release"
+  short_description: "Prepare and publish KonradFlow semver releases."
+  default_prompt: "Prepare a new KonradFlow release."

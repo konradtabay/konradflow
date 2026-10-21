@@ -1,0 +1,44 @@
+{
+  "generated_on": "2026-07-14",
+  "trace_count": 11,
+  "latest_config": {
+    "fastDictationContextEnabled": false,
+    "realtimeStreamingEnabled": false,
+    "transcriptionModel": "whisper-large-v3",
+    "postProcessingModel": "openai/gpt-oss-20b",
+    "preserveExactWording": false,
+    "fastPostProcessingEnabled": false
+  },
+  "metrics": {
+    "t_start_ms": {
+      "count": 10,
+      "p50": 13.184070587158203,
+      "p95": 27.466893196105957,
+      "p99": 27.466893196105957
+    },
+    "stt_ms": {
+      "count": 10,
+      "p50": 430.43601512908936,
+      "p95": 895.3330516815186,
+      "p99": 895.3330516815186
+    },
+    "context_ms": {
+      "count": 10,
+      "p50": 0.20301342010498047,
+      "p95": 916.0059690475464,
+      "p99": 916.0059690475464
+    },
+    "pp_ms": {
+      "count": 10,
+      "p50": 223.5569953918457,
+      "p95": 396.3921070098877,
+      "p99": 396.3921070098877
+    },
+    "t_paste_ms": {
+      "count": 9,
+      "p50": 920.6069707870483,
+      "p95": 1500.2590417861938,
+      "p99": 1500.2590417861938
+    }
+  }
+}
